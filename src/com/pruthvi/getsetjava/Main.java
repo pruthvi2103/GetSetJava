@@ -9,5 +9,8 @@ public class Main {
 
         int sum = mathOps.getSum(1,2);
         System.out.println(sum);
+        int[] table = mathOps.getTable(2,15);
+        arrayUtils.printArray(table);
+
     }
 }
